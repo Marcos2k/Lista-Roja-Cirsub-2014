@@ -1,0 +1,106 @@
+﻿body {	height: 661px;
+}
+
+#menu
+{
+	padding:5px;/*Borra el espacio de lado a lado*/
+	margin: 0px auto 0px auto; /*Establece el margen de separacion*/ 
+	background-color:Red;
+	height: 35px;
+}
+
+#menu li
+{
+	display:inline; /* hace horizontal el menu*/
+}
+
+#menu li a
+{
+	font-family:Arial; /*Fuente*/
+	font-size:26px; /*Tamaño de la fuente*/
+	text-decoration: none; /*Elimina las lineas de hiper link*/
+	float:none;
+	padding: 5px;
+	background-color:Red;
+	color:White;
+}
+
+.shell { max-width: 100%; }
+
+
+/*Cambia de color cuando acercamos el mouse */
+#menu li a:hover{ /* Hover hace la separacion como se fuera botones*/
+	background-color:White;
+	color:Black;
+}
+
+.page /*delimita los bordes de la pagina*/
+{
+    width: 1300px; /*Ancho*/
+    background-color: white;
+    margin: 10px auto 0px auto;
+    border: 1px solid #496077;
+	height: 600px; /*Alto*/
+}
+
+.footer /*pie de pagina*/
+{
+	background-color:Red;
+   color:White;
+    font-family:Arial Sans-Serif;
+    font-size:16px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px auto 0px auto; /*Establece el margen de separacion*/
+    border: 1px solid #496077;
+    line-height: normal;
+    width: 1300px;
+	height: 35px;
+	
+	float:none;
+}
+
+.footer a
+{
+	font-size:16px;
+	text-decoration:none;
+	color:White;
+}
+
+.cambio
+{
+	
+	font-size:22px;
+	text-decoration:underline;
+}
+
+.minusculas
+{
+	font-family:Arial;
+	font-size: 20px;
+	 
+}
+
+.Titulo_propuesta
+{
+	font-family:Arial;
+	font-size:20px;
+ 
+}
+
+.propuestas
+{
+	font-family:Arial;
+	font-size:14px;
+}
+
+.sede
+{
+	font-size:26px;
+	text-decoration:overline underline;
+}
+.postulantes
+{
+	font-family:Arial;
+        	font-size:20px;
+            text-decoration: underline;
+}
